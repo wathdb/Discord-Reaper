@@ -1,67 +1,67 @@
-
+```markdown
 # 💻 **Discord Reaper Bot** 🤖
 
-**Discord Reaper Bot** est un outil puissant qui permet de contrôler à distance un PC via Discord. Une fois configuré, il peut être lancé automatiquement au démarrage du système et exécuter des commandes depuis Discord en toute simplicité.
+**Discord Reaper Bot** is a powerful tool that allows you to remotely control a PC via Discord. Once configured, it can be launched automatically at system startup and execute commands from Discord with ease.
 
-## 🔥 **Avantages** 🚀
+## 🔥 **Advantages** 🚀
 
-- **Facilité d'utilisation** : Créez un bot Discord qui peut exécuter n'importe quelle commande système via Discord. 👨‍💻
-- **Démarrage automatique** : Ajoutez votre programme au démarrage de Windows, afin qu'il s'exécute automatiquement à chaque reboot du PC. 🔄
-- **Invisible pour les antivirus** 🦠 : Le fichier généré est conçu pour ne pas être détecté par les antivirus traditionnels.
-- **Permissions maximales** : Le bot utilise toutes les permissions nécessaires pour contrôler et interagir avec Discord. ✅
-- **Portable** : Le bot est compilé en un fichier exécutable `.exe`, facile à distribuer et exécuter.
+- **Ease of Use**: Create a Discord bot that can execute any system command via Discord. 👨‍💻
+- **Auto-Start**: Add your program to Windows startup so it runs automatically every time the PC reboots. 🔄
+- **Invisible to Antivirus** 🦠: The generated file is designed not to be detected by traditional antivirus programs.
+- **Maximum Permissions**: The bot uses all necessary permissions to control and interact with Discord. ✅
+- **Portable**: The bot is compiled into a `.exe` executable file, easy to distribute and run.
 
+---
 
+## 🛠️ **Installation & Usage** ⚙️
 
-## 🛠️ **Installation & Utilisation** ⚙️
+### 1️⃣ Prerequisites
 
-### 1️⃣ Prérequis
+Before starting, make sure you have Python and `pip` installed on your machine. You'll also need `requests` and `discord.py`.
 
-Avant de commencer, assurez-vous d'avoir Python et `pip` installés sur votre machine. Vous aurez également besoin de `requests` et de `discord.py`.
-
-Dans le terminal, installez les dépendances :
+In the terminal, install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Générer votre fichier exécutable
+### 2️⃣ Generate Your Executable File
 
-Clonez ce dépôt et exécutez le script pour générer le bot Discord et l'exécutable `.exe`.
+Download the program and run the script to generate the Discord bot and the `.exe` executable.
 
 ```bash
-python votre_script.py
+python your_script.py
 ```
 
-Lors de l'exécution, le script vous demandera :
+When running, the script will ask for:
 
-- **BOT TOKEN** : Entrez le token de votre bot Discord.
-- **FILE NAME** : Choisissez un nom pour le fichier `.py` qui sera généré.
+- **BOT TOKEN**: Enter your Discord bot token. ⚠️ **WARNING**: Use a unique token for each copy of the program. If you use multiple tokens on the same copy, the program won't work.
+- **FILE NAME**: Choose a name for the `.exe` file that will be generated.
 
-Le bot sera compilé en un fichier `.exe` dans le dossier `dist`.
+The bot will be compiled into a `.exe` file in the `dist` folder.
 
-### 3️⃣ Lancer le bot Discord
+### 3️⃣ Run the Discord Bot
 
-Une fois que l'exécutable est généré, vous pouvez l'ouvrir. Il s'ajoutera automatiquement au démarrage de Windows pour que le bot fonctionne sans intervention. 🚀
+Once the executable is generated, you can open it. It will automatically add itself to Windows startup so the bot will run without intervention. 🚀
 
 ---
 
-## 🔧 **Commandes du Bot** 📝
+## 🔧 **Bot Commands** 📝
 
-- **!command <commande>** : Exécute une commande système sur le PC distant. 
+- **!command <command>**: Executes a system command on the remote PC.
 
-Exemple :
-```
+Example:
+```bash
 !command echo Hello World
 ```
 
 ---
 
-## 🌟 **Générer un lien d'invitation pour votre bot** 🔗
+## 🌟 **Generate an Invitation Link for Your Bot** 🔗
 
-Le bot vous génère un lien d'invitation pour l'ajouter à vos serveurs Discord avec toutes les permissions maximales.
+The program generates an invitation link to add it to your Discord servers to interact with it (⚠️ only via DM).
 
-Exemple de lien d'invitation généré :
+Example of the generated invitation link:
 ```
 https://discord.com/oauth2/authorize?client_id=<BOT_ID>&permissions=8&scope=bot
 ```
@@ -70,23 +70,22 @@ https://discord.com/oauth2/authorize?client_id=<BOT_ID>&permissions=8&scope=bot
 
 ## 🚨 **Important** ⚠️
 
-- Ce bot est destiné à des fins éducatives uniquement. L'utilisation de ce script à des fins malveillantes ou non éthiques est strictement interdite.
-- Il est essentiel de respecter la **légalité** et la **vie privée** des autres utilisateurs. 🚫
-  
+- This bot is for **educational purposes only**. Using this script for malicious or unethical purposes is strictly prohibited.
+- It is essential to respect the **legality** and **privacy** of other users. 🚫
+
 ---
 
-## 📄 **Licence** 📝
+## 📄 **License** 📝
 
-Ce projet est sous la licence **CC BY-NC-ND 4.0**. Vous êtes libre d'utiliser ce code, mais vous ne pouvez pas le modifier ni l'utiliser à des fins commerciales sans autorisation.
+This project is licensed under the **CC BY-NC-ND 4.0** license. You are free to use this code, but you cannot modify it or use it for commercial purposes without permission.
 
 ---
 
 ## 📢 **Support** 🤝
 
-Si vous avez des questions ou des problèmes avec l'utilisation du bot, n'hésitez pas à ouvrir un **issue** ou à me contacter directement !
+If you have any questions or issues with the bot, feel free to open an **issue** or contact me directly via Discord (wathd)!
 
 ---
 
-**Créez, personnalisez et contrôlez à distance vos machines avec Discord Reaper Bot !** 🔥
+**Create, customize, and remotely control your machines with Discord Reaper Bot!** 🔥
 ```
-
