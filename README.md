@@ -1,4 +1,3 @@
-```markdown
 # 💻 **Discord Reaper Bot** 🤖
 
 **Discord Reaper Bot** is a powerful tool that allows you to remotely control a PC via Discord. Once configured, it can be launched automatically at system startup and execute commands from Discord with ease.
@@ -10,8 +9,6 @@
 - **Invisible to Antivirus** 🦠: The generated file is designed not to be detected by traditional antivirus programs.
 - **Maximum Permissions**: The bot uses all necessary permissions to control and interact with Discord. ✅
 - **Portable**: The bot is compiled into a `.exe` executable file, easy to distribute and run.
-
----
 
 ## 🛠️ **Installation & Usage** ⚙️
 
@@ -88,4 +85,3 @@ If you have any questions or issues with the bot, feel free to open an **issue**
 ---
 
 **Create, customize, and remotely control your machines with Discord Reaper Bot!** 🔥
-```
