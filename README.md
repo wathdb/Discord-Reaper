@@ -80,8 +80,14 @@ This project is licensed under the **CC BY-NC-ND 4.0** license. You are free to 
 
 ## 📢 **Support** 🤝
 
-If you have any questions or issues with the bot, feel free to open an **issue** or contact me directly via Discord (wathd)!
+If you have any questions or issues with the bot, feel free to open an **issue** or contact me directly via Discord !
+
+---
+
+## 🌟 **Give a Star ⭐**  
+If you like this project, consider giving it a star on GitHub to support it! 😊  
 
 ---
 
 **Create, customize, and remotely control your machines with Discord Reaper Bot!** 🔥
+**Created with ❤️ by [wathD]**
